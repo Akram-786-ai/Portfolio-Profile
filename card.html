@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Task</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f9f9f9;
+
+            line-height: 1.6;
+        }
+
+        header {
+            background: #4caf50;
+            color: #fff;
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #4caf50;
+            margin-bottom: 10px;
+        }
+
+        .Portfolio {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .Portfolio img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid #4caf50;
+        }
+
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills li {
+            background: #e8f5e9;
+            padding: 5px 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        input,
+        textarea,
+        button {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        button {
+            background: #4caf50;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #45a049;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #ddd;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background: #4caf50;
+            color: #fff;
+        }
+
+        footer {
+            background: #4caf50;
+            color: #fff;
+            padding: 15px 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>My Intern Task</h1>
+    </header>
+    <section>
+        <h2>Personal Portfolio</h2>
+        <div class="Portfolio">
+            <img src="img/taufik.jpg" alt="">
+            <div>
+                <h3>Taufik Kapoor</h3>
+                <p>I am a passionate Frontend Developer skilled in creating responsive and modern website. Always eager
+                    to learn and work on real-world Projects</p>
+            </div>
+        </div>
+        <div class="skills">
+            <h3>My skills</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaSrcipt</li>
+                <li>React</li>
+                <li>Tailwind CSS</li>
+            </ul>
+        </div>
+
+        <h3>Contact Me</h3>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Student Details</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Roll No.</th>
+                <th>Marks</th>
+            </tr>
+            <tr>
+                <td>Aman</td>
+                <td>10</td>
+                <td>76</td>
+            </tr>
+            <tr>
+                <td>Taufik</td>
+                <td>11</td>
+                <td>68</td>
+            </tr>
+            <tr>
+                <td>Monu</td>
+                <td>12</td>
+                <td>86</td>
+            </tr>
+            <tr>
+                <td>Faraz</td>
+                <td>13</td>
+                <td>62</td>
+            </tr>
+            <tr>
+                <td>Hemant</td>
+                <td>14</td>
+                <td>75</td>
+            </tr>
+        </table>
+
+        <h3>Add New Student</h3>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <label>Gender:</label>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <label>Hobbies:</label>
+            <input type="checkbox">Reading
+            <input type="checkbox">Sports
+            <input type="checkbox">Gaming
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>&copy; 2025 Taufik Kapoor Internship</footer>
+</body>
+
+</html>
